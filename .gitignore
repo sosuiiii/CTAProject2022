@@ -9,11 +9,10 @@ temp.plist
 build/
 
 # Xcode project files except for the project file
-# *.xcodeproj/*
-# !*.xcodeproj/project.pbxproj
+*.xcodeproj/project.pbxproj
 # !*.xcodeproj/xcshareddata
-+ *.xcodeproj
-+ *.xcworkspace
+*.xcodeproj
+*.xcworkspace
 xcuserdata
 
 # Windows image thumbnail file
