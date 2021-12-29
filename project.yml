@@ -1,0 +1,25 @@
+name: CTAProject
+targets:
+  CTAProject:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: CTAProject
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.hoge.CTAProject
+
+  CTAProjectTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: CTAProjectTests
+    dependencies:
+      - target: CTAProject
+
+  CTAProjectUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: CTAProjectUITests
+    dependencies:
+      - target: CTAProject
