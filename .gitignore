@@ -10,10 +10,10 @@ build/
 
 # Xcode project files except for the project file
 *.xcodeproj/project.pbxproj
-# !*.xcodeproj/xcshareddata
 *.xcodeproj
 *.xcworkspace
 xcuserdata
+xcodebuild.json
 
 # Windows image thumbnail file
 Thumbs.db
