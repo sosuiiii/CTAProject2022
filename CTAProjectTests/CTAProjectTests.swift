@@ -4,9 +4,8 @@
 //
 //  Created by 田中 颯志 on 2021/12/29.
 //
-
-import XCTest
 @testable import CTAProject
+import XCTest
 
 class CTAProjectTests: XCTestCase {
 
