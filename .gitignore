@@ -1,4 +1,4 @@
-# hidden/temp files	
+# hidden/temp files
 .DS_Store
 *.swp
 *~.nib
@@ -9,12 +9,18 @@ temp.plist
 build/
 
 # Xcode project files except for the project file
-*.xcodeproj/project.pbxproj
-*.xcodeproj
-*.xcworkspace
+# *.xcodeproj/*
+# !*.xcodeproj/project.pbxproj
+# !*.xcodeproj/xcshareddata
+*.xcodeproj/project.xcworkspace/xcuserdata/*
+xcworkspace
+project.xcworkspace
+*.xcodeproj/xcuserdata/*
+*.xcodeproj/xcuserdata/
+.DS_Store
+*.xcworkspace/xcuserdata/*
 xcuserdata
-xcodebuild.json
-*xcuserdata/
+/Pods/*
 
 # Windows image thumbnail file
 Thumbs.db
