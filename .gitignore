@@ -14,6 +14,7 @@ build/
 *.xcworkspace
 xcuserdata
 xcodebuild.json
+*xcuserdata/
 
 # Windows image thumbnail file
 Thumbs.db
