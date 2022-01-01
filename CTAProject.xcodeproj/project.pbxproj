@@ -22,7 +22,6 @@
 		885E7D212EFE9D77F68AA724 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39253CFE54D80FB22E7514 /* Extension.swift */; };
 		96701774AA17DB9371E059DA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D0BBA8150138CA44730C /* File.swift */; };
 		9C8A66F3A5A691FF983BE4E0 /* Pods_CTAProject_CTAProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A302121DCCA6FC6733A98155 /* Pods_CTAProject_CTAProjectUITests.framework */; };
-		A4DD802F531862A04B128D61 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ECC59B3A074C2931514E80 /* File2.swift */; };
 		AB8C36AF4BD30A18D9D36B8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1043231B1737DBAE58CDF /* ViewController.swift */; };
 		B0DCE7E298ED6315B1130131 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE13D99C00E4B222419D04 /* SceneDelegate.swift */; };
 		BD82D4605EFA86D98FF63EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08649ACD8147CD7D20C93370 /* Assets.xcassets */; };
@@ -71,7 +70,6 @@
 		A390B13528B21AB7320F4A93 /* Pods_CTAProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTAProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18D99C0EB8FD919602BD1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69A110B943A5BBDF9D3DF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C8ECC59B3A074C2931514E80 /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		CAAA0951C3357452371C24B4 /* CTAProjectTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CTAProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05E46D78BAD806646DC6420 /* Pods-CTAProject-CTAProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAProject-CTAProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-CTAProject-CTAProjectUITests/Pods-CTAProject-CTAProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D28D1D5B1DBC20CEF0F77F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 				9E7C5B46229E623EBDA5BDD8 /* Pods-CTAProjectTests.debug.xcconfig */,
 				F076D60559CA86B2D6AFA755 /* Pods-CTAProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -196,7 +193,6 @@
 			children = (
 				B18D99C0EB8FD919602BD1B8 /* AppDelegate.swift */,
 				3AE7D0BBA8150138CA44730C /* File.swift */,
-				C8ECC59B3A074C2931514E80 /* File2.swift */,
 				3D6BF80818266FE41C839AE2 /* Info.plist */,
 				EECE13D99C00E4B222419D04 /* SceneDelegate.swift */,
 				37DCFE4CDB1A6760781EA1D8 /* Extension */,
@@ -457,7 +453,6 @@
 				61BDFFD186388F5023CEB432 /* Asset.swift in Sources */,
 				885E7D212EFE9D77F68AA724 /* Extension.swift in Sources */,
 				96701774AA17DB9371E059DA /* File.swift in Sources */,
-				A4DD802F531862A04B128D61 /* File2.swift in Sources */,
 				28BE298ED4AEF741F4EA7FF4 /* Localized.swift in Sources */,
 				5AB076B61B39D258A0F258D1 /* Model.swift in Sources */,
 				B0DCE7E298ED6315B1130131 /* SceneDelegate.swift in Sources */,
