@@ -15,7 +15,7 @@
 		28BE298ED4AEF741F4EA7FF4 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB8FDDBEDFB4E818E06138 /* Localized.swift */; };
 		3B6AEC94EEE7020D90655823 /* CTAProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0111FB426E90E05C789DDDB0 /* CTAProjectTests.swift */; };
 		4FCAE9208B9AD1762DA76030 /* Pods_CTAProject_CTAProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E01B6071077F5A8762981 /* Pods_CTAProject_CTAProjectUITests.framework */; };
-		53DEBE5827806F4F0045F88B /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DEBE5727806F4F0045F88B /* File2.swift */; };
+		53DEBE5627806F290045F88B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DEBE5527806F290045F88B /* File.swift */; };
 		5AB076B61B39D258A0F258D1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DB90F28547DFC5ECD0CE7 /* Model.swift */; };
 		5D99A77ACA566D0E64AAE137 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D23031F3CA0BD34073D0C5D /* ViewModelType.swift */; };
 		61BDFFD186388F5023CEB432 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A33A6CCDCA2E6AFB7FE5632 /* Asset.swift */; };
@@ -61,7 +61,7 @@
 		44AC5E566739ECDEB26726C8 /* Pods_CTAProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTAProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2223A39BCFA18DA9270068 /* CTAProjectUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CTAProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB604CBA072EA4D013624B0 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		53DEBE5727806F4F0045F88B /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
+		53DEBE5527806F290045F88B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		64F0DA81EC65B36A9D4C8FA6 /* Pods-CTAProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAProject.release.xcconfig"; path = "Target Support Files/Pods-CTAProject/Pods-CTAProject.release.xcconfig"; sourceTree = "<group>"; };
 		6BB835FF069BB55A118EC613 /* CTAProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6CCB8FDDBEDFB4E818E06138 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 				F8A6E5D2385AE91E6B7B28E5 /* UILogic */,
 				6E19E0252119A29FE5CEEFED /* UILogicInterface */,
 				44AEDB8439665EEA544A2716 /* UIResource */,
-				53DEBE5727806F4F0045F88B /* File2.swift */,
+				53DEBE5527806F290045F88B /* File.swift */,
 			);
 			path = CTAProject;
 			sourceTree = "<group>";
@@ -489,8 +489,8 @@
 				61BDFFD186388F5023CEB432 /* Asset.swift in Sources */,
 				885E7D212EFE9D77F68AA724 /* Extension.swift in Sources */,
 				28BE298ED4AEF741F4EA7FF4 /* Localized.swift in Sources */,
-				53DEBE5827806F4F0045F88B /* File2.swift in Sources */,
 				5AB076B61B39D258A0F258D1 /* Model.swift in Sources */,
+				53DEBE5627806F290045F88B /* File.swift in Sources */,
 				B0DCE7E298ED6315B1130131 /* SceneDelegate.swift in Sources */,
 				AB8C36AF4BD30A18D9D36B8E /* ViewController.swift in Sources */,
 				058F415E7BC472BF1E990E54 /* ViewModel.swift in Sources */,
