@@ -13,8 +13,8 @@ build/
 # !*.xcodeproj/project.pbxproj
 # !*.xcodeproj/xcshareddata
 xcuserdata
-+ *.xcodeproj
-+ *.xcworkspace
+*.xcodeproj
+*.xcworkspace
 
 
 # Windows image thumbnail file
