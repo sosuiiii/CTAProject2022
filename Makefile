@@ -1,8 +1,10 @@
 PRODUCT_NAME := CTAProject
 WORKSPACE_NAME := ${PRODUCT_NAME}.xcworkspace
 
+xcodegen: 
+	@mint run yonaskolb/XcodeGen xcodegen generate --use-cache
 setup:
-	xcodegen generate
+	make xcodegen
 	pod install
 	open ./${WORKSPACE_NAME}
 pod-install:
