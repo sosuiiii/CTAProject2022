@@ -28,3 +28,6 @@ Thumbs.db
 vendor/bundle
 *.generated.swift
 /Pods/
+
+Podfile.lock
+Gemfile.lock
