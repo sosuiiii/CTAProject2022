@@ -19,6 +19,10 @@ bundle管理の人は
 `$ make setup-b`  
 を実行する
 
+XcodeGen管理なので、checkoutなどで更新が入る場合は  
+`$ make xcodegen`  
+でprojectfileを再生成する  
+
 ## 開発ルール
 [notion参照](https://www.notion.so/Accel-ecec9a6125734c7aa2705515df463474)
 ## 開発フロー
