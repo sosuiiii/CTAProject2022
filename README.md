@@ -11,7 +11,7 @@ Mintでライブラリのバージョン管理をしているため、
 `$ brew install mint`  
 
 Mintのインストールができたらクローンする  
-`$ git clone https://github.com/sosuiiii/CTAProject2022Answer.git`  
+`$ git clone https://github.com/sosuiiii/CTAProject2022.git`  
 
 クローンをしたら  
 `$ make setup`  
