@@ -5,6 +5,12 @@
 
 ![Videotogif](https://user-images.githubusercontent.com/41160560/111022384-ca692480-8415-11eb-82ab-6dc65c13a768.gif)
 
+# 開発の始め方
+1. [CTAProject2022](https://github.com/sosuiiii/CTAProject2022)をforkする
+2. forkしたrepositoryにslackで通知設定をする
+3. forkしたrepositoryをcloneする
+4. 以下のセットアップ手順で環境構築
+
 ## セットアップ
 `make-setup`  
 or  
