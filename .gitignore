@@ -15,6 +15,7 @@ build/
 xcuserdata
 *.xcodeproj
 *.xcworkspace
+Gemfile.lock
 
 
 # Windows image thumbnail file
