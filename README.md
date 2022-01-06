@@ -12,6 +12,12 @@
 4. 以下のセットアップ手順で環境構築
 
 ## セットアップ
+bundler管理なのでbundlerを入れておく。
+
+Mintでライブラリのバージョン管理をしているため、
+以下のコマンドでmintのインストールを済ませておく
+`$ brew install mint`
+
 `make-setup`  
 or  
 `make-setup-b` ( bundler管理の人はこっちを使う )  
