@@ -12,11 +12,13 @@
 4. 以下のセットアップ手順で環境構築
 
 ## セットアップ
-bundler管理なのでbundlerを入れておく。
+bundler管理なのでbundlerを入れておく。  
+`$ gem install bundler`  
+sudo必要かも  
 
-Mintでライブラリのバージョン管理をしているため、
-以下のコマンドでmintのインストールを済ませておく
-`$ brew install mint`
+Mintでライブラリのバージョン管理をしているため、  
+以下のコマンドでmintのインストールを済ませておく  
+`$ brew install mint`  
 
 `make-setup`  
 or  
