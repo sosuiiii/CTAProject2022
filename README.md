@@ -21,8 +21,6 @@ Mintでライブラリのバージョン管理をしているため、
 `$ brew install mint`  
 
 `make-setup`  
-or  
-`make-setup-b` ( bundler管理の人はこっちを使う )  
 で  
 `xcodegen generate`と`pod install`、 `open`が実行される  
 ## 開発ルール
