@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NavigationController: UINavigationController {
+final class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,15 +19,19 @@ class NavigationController: UINavigationController {
     }
     
     private func configureAppearance() {
-        let appearance = UINavigationBarAppearance()
-        appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = .systemYellow
-        appearance.titleTextAttributes = [
-            .foregroundColor: UIColor.white,
-            .font: UIFont.systemFont(ofSize: 28, weight: UIFont.Weight.heavy)
-        ]
-        UINavigationBar.appearance().scrollEdgeAppearance = appearance
-        UINavigationBar.appearance().standardAppearance = appearance
+        let navigationBarAppearance: UINavigationBarAppearance = {
+            
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = .systemYellow
+            appearance.titleTextAttributes = [
+                .foregroundColor: UIColor.white,
+                .font: UIFont.systemFont(ofSize: 28, weight: UIFont.Weight.heavy)
+            ]
+            return appearance
+        }()
+        UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
+        UINavigationBar.appearance().standardAppearance = navigationBarAppearance
     }
     
 }
