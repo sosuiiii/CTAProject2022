@@ -7,12 +7,12 @@
 
 import UIKit
 
-class SearchShopsViewController: UIViewController {
+final class SearchShopsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .white
-        self.navigationItem.title = "グルスポ"
+        view.backgroundColor = .white
+        navigationItem.title = "グルスポ"
     }
     
 }
