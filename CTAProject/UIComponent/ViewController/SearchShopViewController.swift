@@ -9,8 +9,22 @@ import UIKit
 
 class SearchShopViewController: UIViewController {
 
+    @IBOutlet weak var tabBar: UITabBar!
+    @IBOutlet weak var listTabBarItem: UITabBarItem!
+    @IBOutlet weak var favoriteTabBarItem: UITabBarItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tabBar.tintColor = .systemYellow
+        tabBar.selectedItem = listTabBarItem
+        
+        listTabBarItem.title = "リスト"
+        listTabBarItem.image = UIImage(systemName: "list.dash")
+        
+        favoriteTabBarItem.title = "リスト"
+        favoriteTabBarItem.image = UIImage(systemName: "star")
+        
         // Do any additional setup after loading the view.
     }
 
