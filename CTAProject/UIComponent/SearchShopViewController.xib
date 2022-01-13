@@ -14,6 +14,7 @@
                 <outlet property="favoriteTabBarItem" destination="E0J-lc-fBP" id="ef2-Vz-L01"/>
                 <outlet property="listTabBarItem" destination="Meb-Iz-PeX" id="B3N-AU-6nj"/>
                 <outlet property="tabBar" destination="dwt-jQ-mcK" id="WHL-H1-r9g"/>
+                <outlet property="topLabel" destination="boa-Xs-M2R" id="pKN-Bq-jKP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -31,10 +32,17 @@
                         <tabBarItem title="Item" id="E0J-lc-fBP"/>
                     </items>
                 </tabBar>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boa-Xs-M2R">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="141" y="130"/>
+            <point key="canvasLocation" x="140" y="129.98500749625188"/>
         </view>
     </objects>
     <resources>

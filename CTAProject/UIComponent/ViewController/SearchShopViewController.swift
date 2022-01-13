@@ -9,12 +9,19 @@ import UIKit
 
 class SearchShopViewController: UIViewController {
 
+    @IBOutlet weak var topLabel: UILabel!
     @IBOutlet weak var tabBar: UITabBar!
     @IBOutlet weak var listTabBarItem: UITabBarItem!
     @IBOutlet weak var favoriteTabBarItem: UITabBarItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        topLabel.text = "グルスポ"
+        topLabel.font = UIFont.boldSystemFont(ofSize: 20)
+        topLabel.textColor = .white
+        topLabel.backgroundColor = .systemYellow
+        topLabel.textAlignment = NSTextAlignment.center
         
         tabBar.tintColor = .systemYellow
         tabBar.selectedItem = listTabBarItem
